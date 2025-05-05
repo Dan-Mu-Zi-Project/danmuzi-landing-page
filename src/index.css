@@ -195,6 +195,15 @@ body::-webkit-scrollbar {
   display: none;
 }
 .scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
